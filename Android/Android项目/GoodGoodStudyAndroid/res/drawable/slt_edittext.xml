@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/shp_edittext_radiu" android:state_selected="true"></item>
+    <item android:drawable="@drawable/shp_edittext_radiu" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/shp_edittext_radiu"></item>
+
+</selector>

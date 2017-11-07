@@ -1,0 +1,185 @@
+/*---------------------------content------------------------------*/
+#content{
+	margin: 20px auto;
+	width: 1200px;
+	min-width: 1200px;
+	min-height: 660px;
+}
+/*-----------------content-left------------------------------*/
+#left{
+	width: 260px;
+}
+#List-left li{
+	display: inline-block;
+	float: left;
+	height: 70px;
+	width: 260px;
+	border-bottom: 1px solid #e6e8e2;
+	cursor: pointer;
+}
+#List-left li div:hover{
+	color:#feb300; 
+}
+#List-left li div{
+	height: 69px;
+	width: 257px;
+	color:#333;
+	font:600 16px "幼圆";
+	text-align: center;
+	padding-top: 22px;
+}
+.chose{
+	border-left: 2px solid #feb300;
+}
+/*-----------------content-right----------------------------------*/
+#right{
+	margin-left:300px;
+	padding:30px;
+}
+
+/*---------------1.user-personal-data-styles---------------------*/
+/*---------------content-right-table-----------------*/
+#personal-data-table{
+	font:500 14px "幼圆";
+	color: #736C6C;
+}
+/*----------table-left-style-----------*/
+.height-40{
+	height: 40px;
+}
+.height-25{
+	height: 25px;
+}
+#personal-data-table th{
+	width: 160px;
+	text-align: right; 
+}
+#personal-data-table td{
+	width: 426px;
+	text-align: left; 
+}
+/*----------table-right-style----------*/
+.ip-box{
+	height: 100%;
+	width: 100%;
+	font:600 14px '幼圆';
+	color:#212225;
+	padding-left: 20px;
+}
+/*.user-position{
+	margin-left: -45px;
+}
+.user-position li{
+	display: inline-block;
+	float: left;
+}
+.user-position li select{
+	height: 30px;
+	width: 138px;
+	font:500 16px 宋体;
+	margin-left: 5px;
+}*/
+#sex input{
+	margin-left: 10px;
+}
+#signature{
+	width: 100%;
+}
+.signature-textarea{
+	width: 100%;
+	font:600 14px '幼圆';
+	color:#212225;
+	padding-left: 20px;
+}
+#bt-personal-date-submit{
+	height: 20px;
+	width: 100%;
+	font:600 16px 宋体;
+	color: #ffffff;
+	background-color: #feb300;
+	text-align: center;
+	cursor: pointer;
+	padding: 10px;
+}
+
+
+/*---------------2.user-set-avatar-styles---------------------*/
+/*-----------------content-right-----------------------*/
+#set-avatar-div{
+	height: 280px;
+	width: 740px;
+	text-align: center;
+	font:600 14px "微软雅黑";
+}
+#bt-set-avatar-subimt{
+	height: 20px;
+	width: 360px;
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #feb300;
+	text-align: center;
+	padding: 10px;
+	margin: 10px auto;
+	cursor: pointer;
+}
+
+
+/*---------------3.user-vertify-email-styles---------------------*/
+/*-----------------content-right-------------------*/
+#verify-email-div{
+	height: 160px;
+	width: 740px;
+	text-align: center;
+	font:600 20px "微软雅黑";
+}
+#verify-email-div p{
+	margin:10px auto;
+}
+.change-email{
+	font-size: 16px;
+	color: #30dc4c;
+}
+#bt-verify-email-subimt{
+	height: 20px;
+	width: 300px;
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #feb300;
+	text-align: center;
+	padding: 10px;
+	cursor: pointer;
+}
+
+
+/*---------------4.user-reset-password-styles---------------------*/
+/*----------------content-right-table--------------*/
+#reset-password-table{
+	font:500 14px "幼圆";
+	color: #736C6C;
+}
+/*----------table-left-style---------------*/
+.height-40{
+	height: 40px;
+}
+.height-25{
+	height: 25px;
+}
+#reset-password-table th{
+	width: 160px;
+	text-align: right; 
+}
+#reset-password-table td{
+	width: 426px;
+	text-align: left; 
+}
+/*-----------table-right-style---------------------*/
+#bt-reset-password-submit{
+	height: 20px;
+	width: 100%;
+	font:600 16px 宋体;
+	color: #ffffff;
+	cursor: pointer;
+	background-color: #feb300;
+	text-align: center;
+	padding: 10px;
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:contentDescription="@string/dsc_img_logo_big"
+            android:src="@drawable/ic_biglogo" />
+
+        <EditText
+            android:id="@+id/email"
+            style="@style/my_edittext_radiu"
+            android:layout_marginTop="30dp"
+            android:hint="@string/hint_input_email" />
+
+        <EditText
+            android:id="@+id/name"
+            style="@style/my_edittext_radiu"
+            android:layout_marginTop="20dp"
+            android:hint="@string/hint_input_name" />
+
+        <EditText
+            android:id="@+id/password"
+            style="@style/my_edittext_radiu"
+            android:layout_marginTop="20dp"
+            android:hint="@string/hint_input_password"
+            android:inputType="textPassword" />
+
+        <ImageView
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="36dp"
+            android:contentDescription="@string/dsc_img_register"
+            android:src="@drawable/ic_register"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/has_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/tab_has_register"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

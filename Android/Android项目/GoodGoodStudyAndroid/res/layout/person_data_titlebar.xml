@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/my_linearLayout_TitleBar">
+
+    <Button
+        android:id="@+id/title_back"
+        android:layout_width="20dip"
+        android:layout_height="16dip"
+        android:layout_gravity="center"
+        android:layout_margin="5dip"
+        android:background="@drawable/ic_titlebar_back" />
+
+   <TextView
+       android:id="@+id/title_text"
+       android:layout_width="0dip"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_weight="1"
+       android:layout_marginLeft="10dip"
+       android:textColor="#fff"
+       android:textSize="16sp"/>
+
+</LinearLayout>
+

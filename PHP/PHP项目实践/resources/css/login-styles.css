@@ -1,0 +1,94 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#background-picture{
+	background: url(../images/register/bb1.jpg) repeat center top;
+	height: 100%;
+	width: 100%;
+	position: fixed;	
+}
+/*------------------登陆控件-------------------------*/
+.login{
+	margin-left: 180px;
+	margin-top: 140px;
+}
+.loginBackground{
+	position:absolute;
+	height: 280px;
+	width: 320px;
+	z-index: -1;
+	background-color: #000000;
+}
+.visual{
+	filter:alpha(opacity=30);
+	-moz-opacity:0.3;
+	-khtml-opacity: 0.3;
+	opacity: 0.3;
+}
+#login-from{
+	padding: 20px;
+	height: 240px;
+	width: 280px;
+	text-align: center;
+}
+#login-from p{
+	margin-bottom: 10px;
+}
+.login-tab{
+	font:500 20px '微软雅黑';
+	color: #ffffff;
+	padding: 2px 26px;
+	border-bottom: 2px solid #feb300;
+}
+.login-box{
+	height: 40px;
+	width: 230px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+.login-ip{
+	background-color: #ffffff;
+	font-size: 14px;
+	text-align: center;
+}
+.login-bt{
+	font:600 16px '幼圆';
+	color: #ffffff;
+	background-color: #feb300;
+	margin-top:0px;
+}
+.little-tab-remeber{
+	font:500 12px '微软雅黑';
+	color: #ffffff;
+	margin:10px 22px;
+	text-align:left;
+}
+.little-tab-register{
+	font:500 12px '微软雅黑';
+	color: #feb300;
+	margin-left:22px;
+}
+.forget-password{
+	margin-left: 120px;
+}
+/*------------------注册控件-------------------------*/
+.registerBackground{
+	position:absolute;
+	height: 320px;
+	width: 320px;
+	z-index: -1;
+	background-color: #000000;
+}
+#register-from{
+	padding: 20px;
+	height: 280px;
+	width: 280px;
+	text-align: center;
+}
+.register-bt{
+	font:600 16px '幼圆';
+	color: #ffffff;
+	background-color: #feb300;
+	margin-top:15px;
+}

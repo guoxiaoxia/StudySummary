@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>note-edit-summernote</title>
+	<link rel="stylesheet" type="text/css" href="http://cdn.gbtags.com/twitter-bootstrap/3.2.0/css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="http://cdn.gbtags.com/font-awesome/4.1.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" type="text/css" href="http://cdn.gbtags.com/summernote/0.5.2/summernote.css"/>
+	<link rel="stylesheet" type="text/css" href="css/note-styles.css">	
+	<script src="http://cdn.gbtags.com/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://cdn.gbtags.com/twitter-bootstrap/3.2.0/js/bootstrap.js"></script>
+	<script src="http://cdn.gbtags.com/summernote/0.5.2/summernote.min.js"></script>
+	<script type="text/javascript" src="js/note.js"></script>
+</head>
+<body>
+	<div id="note-edit-body">
+		<div id="note-edit-header">
+			<p class="ip-notebook-tab">
+				<input type="hidden" id="note-eidt-show-hidden">
+				笔记本：<input id="ip-notebook-update" name="ip-notebook-update" class="edit-ip" type="text" placeholder="请输入笔记本名称"> &nbsp;
+				标签：<input id="ip-label-update" name="ip-label-update" class="edit-ip" type="text" placeholder="请输入标签"> &nbsp;
+				标题：<input id="ip-title-update" name="ip-title-update" class="edit-ip" type="text" placeholder="请输入标题">
+				<label id="bt-note-update" class="bt-note-save">提交</label>
+			</p>
+		</div>
+		<!-- 定义一个div容器 -->
+		<div id="summernote-editor"></div>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$('#note-eidt-show-hidden').click();
+		});
+		</script>
+	</div>	
+</body>
+</html>

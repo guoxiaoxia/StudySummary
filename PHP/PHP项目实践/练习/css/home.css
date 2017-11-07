@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    list-style: none;
+    text-decoration: none; //去掉a标签的默认样式下划线
+}
+
+#header {
+    background-color: #F9FBFC;
+    height: 62px;
+    width: 100%;
+    min-width: 1200px;
+    position: fixed;
+}
+
+#header-holder {
+    height: 62px;
+}
+
+#banner {
+    height: 520px;
+    min-width: 1200px;
+}
+
+#content {
+    background-color: #e5e3ff;
+    height: 832px;
+    min-width: 1200px;
+}
+
+#footer {
+    background-color: #11e3e0;
+    height: 240px;
+    min-width: 1200px;
+}
+
+
+/*-------------------------header----------------*/
+
+#logo {
+    float: left;
+    margin-left: 120px;
+    margin-top: 5px;
+}
+
+#navigation {
+    display: inline-block;
+    float: right;
+    margin-right: 150px;
+    height: 62px;
+    position: relative;
+    z-index: 999;
+}
+
+#navigation li span {
+    font: 500 14px "Microsoft Yahei";
+    color: #352D2D;
+    cursor: default;
+}
+
+#navigation li {
+    float: left;
+    width: 121px;
+    line-height: 62px;
+    text-align: center;
+    position: relative;
+    background-color: #eee;
+}
+
+#navigation li:hover {
+    background-color: #AEAEAE;
+}
+
+#navigation>li ul {
+    display: none;
+    padding: 0;
+}
+
+#navigation li:hover ul {
+    display: block;
+    width: 121px;
+}
+
+#navigation li:hover ul li {
+    display: block;
+    margin-top: 2px;
+}
+
+#div-navigation {
+	 position: relative;
+    z-index: 998;
+    background-color: #F8F6F4;
+    width: 100%;
+    overflow: hidden;
+    display: none;
+    border-bottom: 5px solid #E60027;
+    height: 250px;
+}
+
+#div-navigation dl {
+    padding: 50px 150px;
+}
+
+#div-navigation dd {
+    width: 150px;
+    text-align: center;
+    float: left;
+}
+
+#div-navigation dd p a {
+    font: 500 14px "Microsoft Yahei";
+    color: #352D2D;
+    padding: 2px 5px;
+}
+
+#div-navigation dd p a:hover {
+    background-color: #E60027;
+    color: #ffffff;
+}
+
+#div-navigation dd ul {
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+#div-navigation dd ul li {
+    margin: 3px 0px;
+}
+
+#div-navigation dd ul li a {
+    font: 500 12px "Microsoft Yahei";
+    color: #7e7e7e;
+    padding: 2px 5px;
+    margin: 5px 0px;
+}
+
+#div-navigation dd ul li a:hover {
+    color: #ffffff;
+    background-color: #E60027;
+}
+
+.submenu {
+    display: inline-block;
+}
+
+#ic_menu {
+    padding-left: 5px;
+}
+/*---------------------------banner-----------------------------------*/

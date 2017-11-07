@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>note</title>
+	<!-- 注意文件引用的顺序 -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+	<link rel="stylesheet" type="text/css" href="css/note-styles.css">
+	<link type="text/css" rel="stylesheet" href="plugins/page/simplePagination.css"/>	
+	<script type="text/javascript" src="plugins/JQuery/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/note.js"></script>
+	<script type="text/javascript" src="plugins/page/jquery.simplePagination.js"></script>
+</head>
+<body>
+	<div id="header">
+		<div id="logo">
+			<a href="home.html"><img src="images/home/logo.png" alt="LOGO" height="60" width="200" /></a>
+		</div>
+		<div id="help">
+			<a href="login.html">登录</a>
+			<a href="register.html">注册</a>
+			<a href="user.html" id="HTML-user">账户</a>
+			<a href="index.html">帮助</a>
+		</div>
+		<ul id="navigation">
+			<li>
+				<a href="home.html" id="HTML-home">首页</a>
+			</li>
+			<li class="selected">
+				<a href="note.html" id="HTML-note">笔记</a>
+			</li>
+			<li>
+				<a href="">任务</a>
+			</li>
+			<li>
+				<a href="">休息</a>
+			</li>
+			<li>
+				<a href="">总结</a>
+			</li>
+		</ul>
+	</div>
+	
+	<div id="content">
+		<div id="left">
+			<div id="left-avatar"><img src="images/user/2.jpg" alt="头像" height="180" width="180"></div>
+			<ul id="List-left">
+				<li>
+					<div id="note-preview">
+						<span class="no-chose"><img src="images/note/n-i-yulan.png" height="22px" width="22px">&nbsp;笔记预览</span>
+					</div>
+				</li>
+				<li>
+					<div id="note-edit">
+						<span class="no-chose"><img src="images/note/n-i-suitang.png" height="22px" width="22px">&nbsp;创建笔记</span>
+					</div>
+				</li>
+			</ul>		
+		</div>
+	</div>
+
+	<div id="foot">
+		<div class="link">
+			<li><a href="http://im.qq.com/"><img src="images/home/i-qq.png" width="36" height="36"></a></li>
+			<li><a href="https://mp.weixin.qq.com/cgi-bin/loginpage?t=wxm2-login&lang=zh_CN"><img src="images/home/i-weixin.png" width="32" height="32"></a></li>
+			<li><a href="https://www.baidu.com/"><img src="images/home/i-baidu.png" width="32" height="32"></a></li>
+		</div>
+		<div class="footer-copyright">
+      		<p>Copyright © 2015 GoodGoodStudy.com All Rights Reserved</p>
+    	</div>
+	</div>
+</body>
+</html>

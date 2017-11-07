@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:contentDescription="@string/dsc_img_logo_big"
+            android:src="@drawable/ic_biglogo" />
+
+        <EditText
+            android:id="@+id/name"
+            style="@style/my_edittext_radiu"
+            android:layout_marginTop="30dp"
+            android:hint="@string/hint_input_name" />
+
+        <EditText
+            android:id="@+id/password"
+            style="@style/my_edittext_radiu"
+            android:layout_marginTop="20dp"
+            android:hint="@string/hint_input_password"
+            android:inputType="textPassword" />
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/remeber_psd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:paddingLeft="5dp"
+                android:text="@string/tab_remeber_password"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="36dp"
+            android:contentDescription="@string/dsc_img_login"
+            android:src="@drawable/ic_login"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:divider="@drawable/shp_divider_horizontal"
+        android:dividerPadding="5dp"
+        android:orientation="horizontal"
+        android:showDividers="middle" >
+
+        <TextView
+            android:id="@+id/no_register"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="@string/tab_no_register"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/forgot_psd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="@string/tab_forgot_password"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,233 @@
+/*---------------------------content------------------------------*/
+#content{
+	margin: 20px auto;
+	width: 1200px;
+	min-width: 1200px;
+	min-height: 660px;
+	/*border: 2px solid #000000;*/
+}
+/*-----------------content-left------------------------------*/
+#left{
+	width: 260px;
+	float: left;
+}
+#left-avatar{
+	width: 180px;
+	height: 180px;
+	margin-left: 60px;
+	border: 2px solid #000000;
+	border-radius: 50%;
+	overflow: hidden;
+}
+#List-left li{
+	display: inline-block;
+	float: left;
+	height: 70px;
+	width: 100%;
+	border-bottom: 1px solid #e6e8e2;
+}
+#List-left li div{
+	height: 48px;
+	width: 100%;
+	color:#333;
+	font:600 16px "幼圆";
+	text-align: center;
+	padding-top: 22px;
+}
+#List-left li div:hover{
+	color:#feb300; 
+}
+.chose{
+	color:#feb300; 
+}
+/*-----------------content-right----------------------------------*/
+#right{
+	margin-left:300px;
+	padding:30px;
+	/*border: 1px solid #000000;*/
+}
+#right-update{
+	margin-left:300px;
+	padding:30px;
+	/*border: 1px solid #000000;*/
+}
+
+/*-------------------content-note-edit------------------------------*/
+/*--------------------------summernote-----------------------*/
+.note-alarm {
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+/*------content-right-top-title------------*/
+.right-title{
+	width: 100%;
+	font:600 18px 幼圆;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #e6e8e2;
+}
+/*-------------------note-preview-search-----------------------*/
+#right-search li{
+	float: left;
+	margin: 6px;
+	padding: 3px 6px;
+	border-radius: 2px;
+	text-align: center;
+	cursor: pointer;
+}
+#search-choose li{
+	font:600 14px '微软雅黑';
+}
+#search-choose li:hover{
+	color:#ffffff;
+	background-color:#feb300;
+}
+#notebook-choose li{
+	font:600 12px '微软雅黑';
+}
+#notebook-choose li:hover{
+	color:#ffffff;
+	background-color:#60c1ee;
+}
+#right-search input{
+	font:600 12px '微软雅黑';
+	color:#56565d;
+	margin: 6px;
+}
+#right-search img{
+	cursor: pointer;
+}
+.no-selected{
+	color: #56565d;
+	background-color:#ffffff;
+}
+.selected{
+	color:#ffffff;
+	background-color:#feb300;
+}
+.no-selected-2{
+	color: #56565d;
+	background-color:#ffffff;
+}
+.selected-2{
+	color:#ffffff;
+	background-color:#60c1ee;
+}
+/*-------------note-preview-content-body--------------------*/
+#note-preview-body{
+	width: 100%;
+}
+#note-preview-content{
+	background: url(../images/note/bg.jpg) repeat center top;
+	width: 96%;
+	height: 340px;
+	margin: 20px 5px;
+	padding: 8px;
+}
+#note-preview-content li{
+	float: left;
+	width: 170px;
+	height: 300px;
+	background-color: #ffffff;
+	box-shadow: 8px 8px 10px #ccc;
+	border-radius: 5px;
+	overflow: hidden;
+	margin:12px;
+}
+#note-preview-content li:hover{
+	width: 190px;
+	height: 320px;
+}
+.note-book-title{
+	background: url(../images/note/1.png) repeat center top;
+	height: 40px;
+	text-align: center;
+	font: 600 16px "幼圆";
+	color: #716a66;
+	padding-top: 20px;
+}
+.content{
+	text-align: center;
+	font: 600 14px "幼圆";
+	color: #716a66;
+	padding: 10px;
+}
+.tab{
+	font-size: 10px;
+}
+.note-title{
+	font: 600 16px "幼圆";
+	color: #000000;
+}
+.time{
+	color: #60b0e5;
+	font-size: 10px;
+}
+.note-content{
+	width: 100%;
+	height: 132px;
+	font: 600 12px "幼圆";
+	color:#94908e;
+	word-break:break-all;
+	overflow: hidden;
+	line-height: 18px;
+}
+.editNote{
+	padding:5px 10px;
+	background-color: #5adc9a;
+	color: #ffffff;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.deleteNote{
+	padding:5px 10px;
+	background-color: #fe2f00;
+	color: #ffffff;
+	border-radius: 2px;
+	cursor: pointer;
+}
+/*------------note-preview-right-content-empty--------------*/
+#note-empty{
+	width: 100%;
+	height: 600px;
+	text-align: center;
+}
+/*---------------note-edit-content--------------------------*/
+#note-edit-body{
+	width: 100%;
+	height:660px;
+}
+/*---------------note-edit-content-edit---------------*/
+.ip-notebook-tab{
+	font:600 16px '幼圆';
+	color: #11cd6e;
+}
+.edit-ip{
+	width: 136px;
+	height: 26px;
+	font:600 12px '幼圆';
+	text-align: center;
+	color: #ccc;
+}
+.bt-note-save{
+	float: right;
+	background-color: #feb301;
+	color: #ffffff;
+	padding:5px 42px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+#bt-note-update-return{
+	background-color: #10d672;
+	color: #ffffff;
+	font-size: 16px;
+	padding:5px 20px;
+	margin-left: 30px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+#note-edit-header{
+	width: 100%;
+	height:30px;
+	margin: 10px;
+}

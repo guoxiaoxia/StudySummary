@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 广告栏 -->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_banner"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@id/title" />
+
+    <LinearLayout
+        android:id="@+id/li_smallcircle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/vp_banner"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <!-- 特性栏 -->
+
+    <LinearLayout
+        android:id="@+id/introduce"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/vp_banner"
+        android:layout_margin="6dp"
+        android:divider="@drawable/shp_divider_horizontal"
+        android:dividerPadding="5dp"
+        android:orientation="horizontal"
+        android:showDividers="middle" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_introduce_plan" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="科学安排计划"
+                android:textColor="#111111" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_introduce_timely" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="随时随地开启"
+                android:textColor="#111111" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 分割线 -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/introduce"
+        android:background="@color/col_divider_line" />
+
+</RelativeLayout>

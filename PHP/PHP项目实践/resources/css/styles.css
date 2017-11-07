@@ -1,0 +1,71 @@
+* {
+	margin: 0px;
+	list-style: none;
+	text-decoration: none;           //去掉a标签的默认样式下划线
+}
+/*------------------------------ Sprites ------------------------------*/
+#navigation, #navigation li.selected a, #navigation li a:hover{
+	background: url(../images/home/interface.png) no-repeat;
+	margin-top:0px;
+}
+/*------------------------------ HEADER ------------------------------*/
+#header {
+	background-color: #e5e3e0;
+	border-bottom:12px solid #93877e;
+	height: 60px;
+	min-width: 1200px;
+}
+#logo {
+	float: left;
+	margin: 5px 20px;
+}
+#navigation {
+	display:inline-block;
+	background-position: right top;     //雪碧图的右上角开始
+	height: 35px;
+	width: 720px;
+	margin-top:25px;
+	position: absolute;
+}
+#navigation li{
+	list-style: none;
+}
+#navigation li a {
+	display: block;
+	float: left;
+	height: 50px;
+	width: 124px;
+	font:600 16px "Microsoft Yahei";
+	color:#352D2D;
+	text-align: center;
+	margin-top: 10px;
+}
+/*---------help----------*/
+#help{
+	float: right;
+	margin-right: 40px;
+	margin-top: 20px;
+}
+#help a{
+	text-decoration: none; 
+}
+/*------------------------------ FOOTER ------------------------------*/
+#foot{
+	height: 120px;                   
+	width: 100%;
+	text-align: center;
+	background-color: #93877e;
+	margin-top: 20px;
+}
+.link{
+	margin-left: 43%;
+}
+.link li{
+	float: left;
+	margin: 20px 10px;
+}
+.footer-copyright{
+	font:600 14px "幼圆";
+	color: #dccaca;
+	clear: left;
+}

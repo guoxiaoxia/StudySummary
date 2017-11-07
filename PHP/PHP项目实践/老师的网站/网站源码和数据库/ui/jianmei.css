@@ -1,0 +1,43 @@
+.title h1{
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 30px;
+	font-weight: normal;
+	font-size: 25px;
+	margin-left: 10px;
+	color: rgb(31,137,62);
+}
+.box1 .content{
+	margin-top: 50px;
+	text-align: center;
+}
+.box1 .content ul{
+	text-align: left;
+}
+.box1 .content .list2{
+	margin-top: 15px;
+}
+.box1 .content .yellow{
+	color: rgb(255,192,1);
+	font-weight: bold;
+}
+.box1 .special{
+	color: rgb(0,80,0);
+	font-weight: bold; 
+}
+.box1 .content-img{
+	margin: 50px 0;
+}
+
+/*box2*/
+.box2 .content{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.box2 .content h4{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.box2 .content p{
+	line-height: 25px;
+}
